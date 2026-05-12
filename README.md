@@ -1,14 +1,14 @@
 HEAD
-# 🌿 HerFund
+# HerFund
 **Empowering the next generation of female investors.**
 
-### 🚀 Tech Stack
+### Tech Stack
 - **Framework:** Next.js 14 (App Router)
 - **Styling:** Tailwind CSS (Neubrutalist Design)
 - **AI:** Groq + Llama 3 (FidAi Personal Assistant)
 - **Language:** TypeScript
 
-### ✨ Key Features
+### Key Features
 - **FidAi:** A context-aware chatbot that knows your specific budget.
 - **Interactive Portfolio:** Real-time fund switching for Fidelity Zero-fee funds.
 - **Goal Tracking:** Visual progress for student loans and savings.
