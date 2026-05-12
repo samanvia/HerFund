@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  /* This sets the default background to your Petal color */
+  --background: #FFF1F1; 
   --foreground: #171717;
+  --rose-gold: #ec9687;
+  --watermelon: #5e2a2b;
 }
 
 @theme inline {
@@ -10,17 +13,24 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* These are your custom RoseBud brand colors */
+  --color-rose-gold: var(--rose-gold);
+  --color-watermelon: var(--watermelon);
+  --color-petal: #FFF1F1;
 }
 
+/* This removes the dark mode auto-switch so your pink theme stays pretty */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FFF1F1;
+    --foreground: #171717;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, sans-serif;
+  margin: 0;
 }
